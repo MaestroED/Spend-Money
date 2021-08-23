@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background: #ffadad;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 25px;
+}
+
+.product {
+  padding: 10px;
+  border: 1px solid;
+  margin-bottom: 10px;
+  width: 23%;
+  margin-top: 15px;
+  text-align: center;
+
+  .price {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  img {
+    height: 200px;
+    width: 250px;
+  }
+}
+
+.container {
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex: 1;
+}
+
+.btn {
+  margin-top: 15px;
+
+  .buy-btn {
+    height: 30px;
+    padding: 0 20px;
+    flex: 1;
+    cursor: pointer;
+    background-color: #ef476f;
+    color: #fff;
+  }
+
+  .sell-btn {
+    height: 30px;
+    padding: 0 20px;
+    flex: 1;
+    cursor: pointer;
+    color: #fff;
+    background: #000   ;
+  }
+  button[disabled] {
+    opacity: 0.2;
+    cursor: not-allowed;
+  }
+}
+
+.reset-assets {
+  height: 30px;
+  padding: 0 20px;
+  flex: 1;
+  cursor: pointer;
+  color: #fff;
+  background: red;
+  margin: 5px;
+}
+
+.assets-container {
+  padding: 25px;
+  background: #fff;
+  border: 1px solid;
+  justify-content: center;
+  text-align: center;
+}

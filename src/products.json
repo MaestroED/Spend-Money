@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Priviate Jet",
+    "price": 15000000,
+    "image" : "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+  },
+
+  {
+    "id": 2,
+    "title": "Diamond",
+    "price": 6000000,
+    "image" : "https://images.pexels.com/photos/5362404/pexels-photo-5362404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+
+  {
+    "id": 3,
+    "title" : "Footbal Club",
+    "price" : 3000000000,
+    "image" : "https://images.pexels.com/photos/270085/pexels-photo-270085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+
+  {
+    "id": 4,
+    "title" : "Mona Lisa",
+    "price" : 2000000000,
+    "stock" : 1,
+    "image" : "https://images.pexels.com/photos/3957982/pexels-photo-3957982.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    
+    
+  },
+  
+  {
+    "id": 5,
+    "title" : "Luxury Car",
+    "price" : 35000000,
+    "image" : "https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+
+  } ,
+
+  {
+    "id": 6,
+    "title" : "Factory",
+    "price" : 50000000,
+    "image" : "https://images.pexels.com/photos/2391/dirty-industry-stack-factory.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  }
+
+
+
+
+]
